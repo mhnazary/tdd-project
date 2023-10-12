@@ -1,10 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>School Library</b></h3>
+  <h3><b>Solver</b></h3>
 
 </div>
 
@@ -46,8 +44,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Contains data about students**
-- **Contains data about teachers**
+- **Factorial method**
+- **String reverse method**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,11 +71,11 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with webpack:
+Install this project with rubocop:
 
 ```sh
   cd project-folder
-  npm run build
+  bundle install
 ```
 
 ### Usage
@@ -86,7 +84,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  npm start
+  ruby solver.rb
 ```
 
 ### Run tests
@@ -94,7 +92,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npm rspec solver_spec.rb
+  rspec solver_spec.rb
 ```
 
 ### Deployment
@@ -134,8 +132,8 @@ You can deploy this project using GitPages:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **More data**
-- [ ] **More quries**
+- [ ] **User Interface**
+- [ ] **More methods**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +147,7 @@ Feel free to check the [issues page](https://github.com/IsmaelMastronardi/tdd-pr
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project and wish to collaborate. Please contact me.
+If you like this project and wish to collaborate. Please contact us.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
