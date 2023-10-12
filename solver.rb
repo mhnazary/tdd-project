@@ -1,18 +1,15 @@
-class Solver 
+class Solver
   def factorial(num)
-    if num < 0
-      raise Exception.new "not factorial by negative numbers"
-    end
-    if num <=1
-      return 1
-    end
-    return num * factorial(num - 1)
+    raise Exception, 'not factorial by negative numbers' if num < 0
+    return 1 if num <= 1
+
+    num * factorial(num - 1)
   end
 
   def reverse(word)
     word.reverse
   end
-  
+
   def fizzbuzz(number)
     if (number % 3).zero? && (number % 5).zero?
       'fizzbuzz'
