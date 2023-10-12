@@ -13,7 +13,7 @@ describe Solver do
       expect(@solver.factorial(5)).to eq(120)
     end
     it "Raise exception when the argument is negative" do
-      expect(@solver.factorial(-1)).to raise_error("not factorial by negative numbers")
+      expect { @solver.factorial(-1) }.to raise_error("not factorial by negative numbers")
     end
   end
 
