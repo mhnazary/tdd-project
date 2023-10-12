@@ -1,6 +1,6 @@
 class Solver
   def factorial(num)
-    raise Exception, 'not factorial by negative numbers' if num < 0
+    raise Exception, 'not factorial by negative numbers' if num.negative?
     return 1 if num <= 1
 
     num * factorial(num - 1)
