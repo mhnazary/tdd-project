@@ -28,4 +28,23 @@ describe Solver do
       expect(@solver.reverse('A1')).to eql('1A')
     end
   end
+
+  context "test the fizzbuzz method" do
+    it "return fizz by multiply 3" do
+      expect(@solver.fizzbuzz(3)).to eql('fizz')
+      expect(@solver.fizzbuzz(9)).to eql('fizz')
+    end
+    it "return buzz by multiply 5" do
+      expect(@solver.fizzbuzz(5)).to eql('buzz')
+      expect(@solver.fizzbuzz(10)).to eql('buzz')
+    end
+    it "return fizzbuzz by multiplies to 3 and 5" do
+      expect(@solver.fizzbuzz(15)).to eql('fizzbuzz')
+      expect(@solver.fizzbuzz(30)).to eql('fizzbuzz')
+    end
+    it "return a number not divisible of 3 or 5" do 
+      expect(@solver.fizzbuzz(2)).to eql(2)
+      expect(@solver.fizzbuzz(4)).to eql(4)
+    end
+  end
 end
